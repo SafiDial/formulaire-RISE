@@ -1,0 +1,187 @@
+body {
+    background-image: url('font.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed; 
+   
+}
+
+
+.container {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 60px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(78, 94, 106);
+}
+
+.login-form {
+    margin-bottom: 20px;
+}
+
+.login-form input[type="email"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none; 
+    background-color: #f2f2f2; 
+    border-radius: 4px;
+    transition: background-color 0.3s; 
+    outline: none; 
+}
+
+
+.login-form input[type="email"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none; /* Enlève la bordure par défaut */
+    border-radius: 4px;
+    background-color: #f0f0f0; /* Fond gris clair */
+}
+
+.login-form input[type="email"]:focus,
+.login-form input[type="password"]:focus {
+    background-color: #fff; 
+}
+
+.login-form input[type="email"]:hover,
+.login-form input[type="password"]:hover {
+    background-color: #e4dce0; 
+}
+
+.login-form input[type="email"]::placeholder,
+.login-form input[type="password"]::placeholder {
+    color: #999999; 
+}
+
+.login-form button {
+    width: 100%;
+    background-color: #6cb2fc;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    margin: 8px 0;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s; 
+}
+
+.login-form button:hover {
+    background-color: #007bff; 
+}
+
+
+
+.options a  {
+    text-decoration: none;
+}
+
+.options a:hover {
+    text-decoration: none;
+}
+
+.connexion-secondaire {
+    max-width: 400px;
+    margin: 10px auto; 
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Centre le contenu */
+    margin-bottom: 150px;
+}
+
+.connexion-secondaire h3 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: rgb(78, 94, 106);
+    
+}
+
+.connexion-secondaire ul {
+    list-style: none;
+    padding: 0;
+}
+
+.connexion-secondaire ul li {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.connexion-secondaire ul li:last-child {
+    margin-bottom: 0;
+}
+
+.connexion-secondaire ul li strong {
+    flex: 1;
+    font-size: 18px;
+    margin-right: 10px;
+    text-align: left;
+}
+
+.connexion-secondaire ul li span {
+    flex: 2;
+    color: #666;
+    font-size: 14px;
+}
+
+.connexion-secondaire p {
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: left;
+
+}
+
+.connexion-secondaire hr {
+    border: none;
+    border-top: 0.5px solid #fcf5f5f0;
+    margin: 10px 0;
+}
+
+
+/* Footer styles */
+.footer {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 20px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0; 
+}
+
+.footer-left {
+    font-size: 14px;
+}
+
+.footer-right {
+    font-size: 14px;
+}
+
+.footer-right a {
+    color: #000000;
+    margin-left: 20px; 
+    text-decoration: none;
+}
+
+.footer-right a:hover {
+    text-decoration: underline;
+}
